@@ -1,13 +1,13 @@
-# @pipeworx/mcp-stackexchange
+# mcp-stackexchange
 
-MCP server for StackExchange — search questions and answers from Stack Overflow and other StackExchange sites.
+StackExchange MCP — wraps the StackExchange API v2.3 (free, no auth required for read)
+
+Part of the [Pipeworx](https://pipeworx.io) open MCP gateway.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `search_questions` | Search for questions on any StackExchange site |
-| `get_answers` | Get answers for a specific question by ID |
 
 ## Quick Start
 
@@ -23,7 +23,7 @@ Add to your MCP client config:
 }
 ```
 
-Or run via CLI:
+Or use the CLI:
 
 ```bash
 npx pipeworx use stackexchange

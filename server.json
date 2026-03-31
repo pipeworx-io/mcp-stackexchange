@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/stackexchange",
+  "title": "stackexchange",
+  "description": "StackExchange MCP — wraps the StackExchange API v2.3 (free, no auth required for read)",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/stackexchange",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-stackexchange",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@pipeworx/mcp-stackexchange",
+      "version": "0.1.0"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/stackexchange/mcp"
+    }
+  ]
+}

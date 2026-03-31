@@ -1,11 +1,3 @@
-/**
- * StackExchange MCP — wraps the StackExchange API v2.3 (free, no auth required for read)
- *
- * Tools:
- * - search_questions: search questions on any StackExchange site
- * - get_answers: get answers for a specific question
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -20,6 +12,15 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * StackExchange MCP — wraps the StackExchange API v2.3 (free, no auth required for read)
+ *
+ * Tools:
+ * - search_questions: search questions on any StackExchange site
+ * - get_answers: get answers for a specific question
+ */
+
 
 const BASE_URL = 'https://api.stackexchange.com/2.3';
 

@@ -1,16 +1,19 @@
 {
   "name": "@pipeworx/mcp-stackexchange",
   "version": "0.1.0",
+  "description": "StackExchange MCP — wraps the StackExchange API v2.3 (free, no auth required for read)",
   "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "stackexchange"],
   "license": "MIT",
-  "description": "MCP server for StackExchange — search questions and answers from Stack Overflow",
-  "keywords": [
-    "mcp",
-    "mcp-server",
-    "model-context-protocol",
-    "pipeworx",
-    "stackexchange"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-stackexchange"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "devDependencies": {
     "typescript": "^5.7.0"
   }
