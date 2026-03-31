@@ -1,0 +1,17 @@
+{
+  "name": "@pipeworx/mcp-stackexchange",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "MCP server for StackExchange — search questions and answers from Stack Overflow",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "pipeworx",
+    "stackexchange"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
