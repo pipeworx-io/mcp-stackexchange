@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-stackexchange",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "StackExchange MCP — wraps the StackExchange API v2.3 (free, no auth required for read)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "stackexchange",
     "gatewaySlug": "stackexchange",
-    "sourceHash": "v1-1b38078cd8ef631649558b0a0f54710841ba40ad1f470879202749bbdf264843",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-18dcf2347ebbb9908ab611791213725d7c9fa68c1b9afc5e0b15d62abf73f971",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
