@@ -1,14 +1,14 @@
 # mcp-stackexchange
 
-StackExchange MCP — wraps the StackExchange API v2.3 (free, no auth required for read)
+Unofficial StackExchange MCP — wraps the StackExchange API v2.3 (free, no auth required for read)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2007+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `search_questions` | Search for questions on StackOverflow or any StackExchange site. Returns title, body, score, answer count, tags, and link. |
+| `stackexchange_search_questions` | Search for questions on StackOverflow or any StackExchange site. Returns title, body, score, answer count, tags, and link. |
 | `get_answers` | Get answers for a specific StackExchange question by ID. Returns answer body, score, and whether it is accepted. |
 | `stack_get_user` | Look up a StackExchange user by numeric ID. Returns display name, reputation, badges (gold/silver/bronze counts), location, website, account age, last access, and per-site activity counts (questions/answers). Works on any StackExchange site (default: stackoverflow). |
 | `list_questions_by_tag` | Browse questions by TAG, sorted by votes or recency — answers "top questions tagged <tag>", "trending <tag> questions this week/month", "most-voted <tag> questions". Returns title, score, answer count, whether answered, view count, tags, and link (call get_answers with a returned question_id to read answers). Combine tags with ";" for AND (e.g. "kubernetes;helm"). Distinct from search_questions, which is keyword-based. |
@@ -58,7 +58,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1866+ data sources. The
+Both URLs reach the same gateway and the same 2007+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
